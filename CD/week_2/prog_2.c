@@ -3,8 +3,8 @@
 
 int main()
 {
-	FILE*   fpread  = fopen("file_1.c", "r");
-        FILE*   fpwrite = fopen("file_2.c", "w");
+	FILE*   fpread  = fopen("file_2.c", "r");
+        FILE*   fpwrite = fopen("file_2_processed.c", "w");
 
         char c = getc(fpread);
 
